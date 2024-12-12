@@ -1,0 +1,15 @@
+# Train and val directories
+train: images/train  # 训练图像目录
+val: images/val     # 验证图像目录
+
+# Test image directory (optional)
+test_images: images/test  # 测试图像目录
+
+# Test label directory (optional)
+test_labels: labels/test # 测试标签目录，如果测试集有标签
+
+# Number of classes
+nc: 2
+
+# Class names
+names: ['green', 'blue']  # 类别名称，这里假设为 'green' 和 'blue'
